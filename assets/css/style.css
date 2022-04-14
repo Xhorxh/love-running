@@ -8,7 +8,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color:#3a3ared3a ;
+    color:#3a3a3a ;
 }
 
 /* headings and logo */
@@ -68,13 +68,13 @@ h1, h2 {
 
      /* hero image  and cover text*/
 #hero-image {
-         height: 600px;
-         width: 100%;
-         background: url(../images/hero-image.webp) no-repeat center center;
-         /* animates zoom effect on loading page*/
-         animation-name: hero-zoom;
-         animation-duration: 5s;
-         animation-fill-mode: forwards;
+     height: 600px;
+     width: 100%;
+     background: url(../images/hero-image.webp) no-repeat center center;
+     /* animates zoom effect on loading page*/
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
 
      }
      /* creates the level of zoom hero image*/
@@ -289,4 +289,34 @@ footer {
         display: none;
     }
     
+}
+/* For medium screens sizes from 950px wide and down*/
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #cover-text {
+        left: 0;
+    }
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
 }
