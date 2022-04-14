@@ -226,6 +226,7 @@ footer {
 
 .social-networks > li {
     display: inline;
+    box-shadow: 0 10px 10px rgba(241, 109, 107, .7);
 }
 
 .social-networks i{
@@ -234,3 +235,18 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+
+.fa-facebook:hover {
+    color: rgb(66, 103, 178);
+}
+.fa-twitter:hover {
+    color: rgb(29, 161, 242) ;
+}
+.fa-youtube:hover {
+    color: rgb(255, 0, 0) ;
+}
+.fa-instagram:hover {
+    color: rgb(193, 53, 132) ;
+}
+
